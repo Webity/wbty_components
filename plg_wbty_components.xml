@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" method="upgrade" type="plugin" group="system">
+	<name>WBTY Components Plugin</name>
+	<author>Webity</author>
+	<creationDate>August 2013</creationDate>
+	<copyright>Copyright (C) 2013 Webity. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@makethewebwork.com</authorEmail>
+	<authorUrl>www.makethewebwork.com</authorUrl>
+	<version>0.2.1.2</version>
+	<description>PLG_SYSTEM_WBTY_COMPONENTS_XML_DESCRIPTION</description>
+	<files folder="plg_wbty_components">
+		<filename plugin="wbty_components">wbty_components.php</filename>
+	</files>
+	<languages folder="plg_wbty_components">
+		<language tag="en-GB">en-GB.plg_system_wbty_components.ini</language>
+		<language tag="en-GB">en-GB.plg_system_wbty_components.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+
+	<updateservers>
+        <server type="extension" priority="1" name="Wbty Components Library and Plugin">http://wbty.co/com_wbty_components.xml</server>
+    </updateservers>
+
+    <scriptfile>script.wbty_components.php</scriptfile>
+</extension>

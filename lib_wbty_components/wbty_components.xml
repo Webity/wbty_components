@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" method="upgrade" version="1.7.0">
+    <name>Wbty Component Library</name>
+    <libraryname>wbty_components</libraryname>
+    <author>Webity</author>
+    <creationDate>March 2013</creationDate>
+    <copyright>Copyright (C) 2013</copyright>
+    <license>
+    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+    </license>
+    <authorEmail>david@makethewebwork.com</authorEmail>
+    <authorUrl>www.makethewebwork.com.com</authorUrl>
+    <version>0.2.1.2</version>
+    <description> 
+    Webity Components library
+    </description>
+
+    <files folder=".">
+        <folder>controller</folder>
+        <folder>file</folder>
+        <folder>form</folder>
+        <folder>jhtml</folder>
+        <folder>model</folder>
+        <folder>table</folder>
+        <folder>view</folder>
+    </files>
+
+    <media folder="media" destination="wbty_components">
+        <folder>css</folder>
+        <folder>font</folder>
+        <folder>img</folder>
+        <folder>js</folder>
+    </media>
+</extension>

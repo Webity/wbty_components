@@ -1,0 +1,5 @@
+/* WbtyDate */
+.wbtydate-container .years, .wbtydate-container .months, .wbtydate-container .days {float: left;}
+.wbtydate-container .years {width: 30% !important;}
+.wbtydate-container .months {width: 40% !important;}
+.wbtydate-container .days {width: 20% !important; margin: 0 5%;}
