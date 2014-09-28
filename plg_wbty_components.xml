@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>info@makethewebwork.com</authorEmail>
 	<authorUrl>www.makethewebwork.com</authorUrl>
-	<version>0.2.1.2</version>
+	<version>0.2.5.2</version>
 	<description>PLG_SYSTEM_WBTY_COMPONENTS_XML_DESCRIPTION</description>
 	<files folder="plg_wbty_components">
 		<filename plugin="wbty_components">wbty_components.php</filename>
